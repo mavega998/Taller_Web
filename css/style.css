@@ -1,0 +1,17 @@
+html,body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background-image: url('../img/html-css-bootstrap.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#contador{
+	color: #fff;
+	font-size: 36px;
+	width: 40%;
+	margin-top: 550px;
+	font-weight: bolder;
+}
