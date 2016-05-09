@@ -48,6 +48,20 @@ section{
 	font-size: 24px;
 }
 
+.row .col-md-4{
+	text-align: center;
+}
+
+.row .col-md-4 h2{
+	border-left: none;
+	border-bottom: 5px solid #144b5f;
+}
+
+.img-circle{
+	width: 200px;
+	height: 200px;
+}
+
 footer div{
 	text-align: center;
 	font-weight: 700;
