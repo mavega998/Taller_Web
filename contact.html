@@ -24,5 +24,28 @@
 			<li><a href="contact.html">contact</a></li>
 		</ul>
 	</nav>
+	<section>
+		<form method="post" action="enviar.php">
+			<table>
+				<tr>
+					<td><strong>Nombre:</strong></td>
+					<td><input type="text" name="name" id="name" placeholder="nombre de pila" ></td>
+				</tr>
+				<tr>
+					<td><strong>Correo: </strong></td>
+					<td><input type="email" name="email" id="email" placeholder="correo" ></td>
+				</tr>
+				<tr>
+					<td><strong>Mensaje: </strong></td>
+				</tr>
+				<tr>
+					<td colspan="2"><textarea name="comment" id="comment" cols="30" rows="5" placeholder="dejenos su mensaje"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="Enviar"></td>
+				</tr>
+			</table>
+		</form>		
+	</section>
 </body>
 </html>

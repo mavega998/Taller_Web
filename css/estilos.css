@@ -74,3 +74,18 @@ footer div{
 	color: #fff;
 	font-weight: bolder;
 }
+
+form {
+	background-color: #ccc;
+	width: 40%;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+form table {
+	width: 100%;
+}
+
+form table input, form table textarea {
+	width: 100%;
+}
