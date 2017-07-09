@@ -10,6 +10,7 @@
     if(!empty($nombre) && !empty($correo) && !empty($mensaje) && isset($nombre) && isset($correo) && isset($mensaje)){
         mail ("mavega998@misena.edu.co","Mensaje de Taller Web",$nombre."\n".$correo."\n".$mensaje,$headers);
         echo "Sus datos se recibieron correctamente...";
+        header('Location: home.html');
     } else {
         echo "Hubo un error en la recepcion de datos...";
     }
